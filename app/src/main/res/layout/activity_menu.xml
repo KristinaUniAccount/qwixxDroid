@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:layout_marginBottom="50dp"
+        android:text="Choose Game Mode"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/classic"
+        android:text="Classic"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:onClick="startClassic"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mixxed"
+        android:text="Mixxed"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:onClick="startMixxed"/>
+
+</LinearLayout>
